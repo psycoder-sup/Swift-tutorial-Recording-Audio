@@ -11,11 +11,11 @@ import SwiftUI
 struct Tutorial_Recording_AudioApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
         }
 
         ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
+//            ImmersiveView()
         }
     }
 }
