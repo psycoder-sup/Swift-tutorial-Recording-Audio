@@ -12,6 +12,16 @@
 		700593202B1463BA00C2077C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7005931F2B1463BA00C2077C /* Assets.xcassets */; };
 		700593232B1463BA00C2077C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700593222B1463BA00C2077C /* Preview Assets.xcassets */; };
 		7005932E2B1463BA00C2077C /* Tutorial_Recording_AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7005932D2B1463BA00C2077C /* Tutorial_Recording_AudioTests.swift */; };
+		7005933B2B14673A00C2077C /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7005933A2B14673A00C2077C /* MeetingView.swift */; };
+		7005933E2B146A3000C2077C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7005933D2B146A3000C2077C /* Theme.swift */; };
+		700593402B146A9A00C2077C /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7005933F2B146A9A00C2077C /* DailyScrum.swift */; };
+		700593422B146B0000C2077C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700593412B146B0000C2077C /* CardView.swift */; };
+		700593442B146CC300C2077C /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700593432B146CC300C2077C /* TrailingIconLabelStyle.swift */; };
+		700593472B146E5A00C2077C /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700593462B146E5A00C2077C /* ScrumsView.swift */; };
+		700593492B14746B00C2077C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700593482B14746B00C2077C /* DetailView.swift */; };
+		7005934B2B147E6E00C2077C /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7005934A2B147E6E00C2077C /* DetailEditView.swift */; };
+		7005934D2B14827E00C2077C /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7005934C2B14827E00C2077C /* ThemeView.swift */; };
+		7005934F2B14834100C2077C /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7005934E2B14834100C2077C /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +43,16 @@
 		700593242B1463BA00C2077C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		700593292B1463BA00C2077C /* Tutorial-Recording AudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tutorial-Recording AudioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7005932D2B1463BA00C2077C /* Tutorial_Recording_AudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_Recording_AudioTests.swift; sourceTree = "<group>"; };
+		7005933A2B14673A00C2077C /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		7005933D2B146A3000C2077C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		7005933F2B146A9A00C2077C /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		700593412B146B0000C2077C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		700593432B146CC300C2077C /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		700593462B146E5A00C2077C /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		700593482B14746B00C2077C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7005934A2B147E6E00C2077C /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		7005934C2B14827E00C2077C /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		7005934E2B14834100C2077C /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,8 @@
 		700593142B1463B900C2077C /* Tutorial-Recording Audio */ = {
 			isa = PBXGroup;
 			children = (
+				7005933C2B146A2B00C2077C /* Models */,
+				700593372B1466DE00C2077C /* Views */,
 				700593192B1463B900C2077C /* Tutorial_Recording_AudioApp.swift */,
 				7005931F2B1463BA00C2077C /* Assets.xcassets */,
 				700593242B1463BA00C2077C /* Info.plist */,
@@ -106,6 +128,30 @@
 				7005932D2B1463BA00C2077C /* Tutorial_Recording_AudioTests.swift */,
 			);
 			path = "Tutorial-Recording AudioTests";
+			sourceTree = "<group>";
+		};
+		700593372B1466DE00C2077C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7005933A2B14673A00C2077C /* MeetingView.swift */,
+				700593412B146B0000C2077C /* CardView.swift */,
+				700593462B146E5A00C2077C /* ScrumsView.swift */,
+				700593482B14746B00C2077C /* DetailView.swift */,
+				7005934A2B147E6E00C2077C /* DetailEditView.swift */,
+				7005934C2B14827E00C2077C /* ThemeView.swift */,
+				7005934E2B14834100C2077C /* ThemePicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7005933C2B146A2B00C2077C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7005933D2B146A3000C2077C /* Theme.swift */,
+				7005933F2B146A9A00C2077C /* DailyScrum.swift */,
+				700593432B146CC300C2077C /* TrailingIconLabelStyle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +257,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7005934F2B14834100C2077C /* ThemePicker.swift in Sources */,
+				700593402B146A9A00C2077C /* DailyScrum.swift in Sources */,
+				700593492B14746B00C2077C /* DetailView.swift in Sources */,
+				7005934B2B147E6E00C2077C /* DetailEditView.swift in Sources */,
 				7005931A2B1463B900C2077C /* Tutorial_Recording_AudioApp.swift in Sources */,
+				7005933E2B146A3000C2077C /* Theme.swift in Sources */,
+				700593472B146E5A00C2077C /* ScrumsView.swift in Sources */,
+				700593422B146B0000C2077C /* CardView.swift in Sources */,
+				7005933B2B14673A00C2077C /* MeetingView.swift in Sources */,
+				7005934D2B14827E00C2077C /* ThemeView.swift in Sources */,
+				700593442B146CC300C2077C /* TrailingIconLabelStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
