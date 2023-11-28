@@ -34,10 +34,7 @@ enum Theme: String, CaseIterable, Identifiable {
     }
     
     var mainColor: Color {
-        switch self{
-        case .bubblegum, .buttercup, .lavender, .orange, .periwinkle, .poppy, .seafoam, .sky, .tan, .teal, .yellow: return Color.yellow
-        case .indigo, .magenta, .navy, .oxblood, .purple: return Color.blue
-        }
+        Color(rawValue)
     }
     
     var name: String {
